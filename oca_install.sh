@@ -53,9 +53,4 @@ ln -s /opt/odoo/partner-contact/base_location
 ln -s /opt/odoo/partner-contact/base_location_geonames_import
 ln -s /opt/odoo/partner-contact/base_partner_sequence
 ln -s /opt/odoo/web/web_export_view  /opt/odoo/custom/addons
-ln -s /opt/odoo/
-ln -s /opt/odoo/
-ln -s /opt/odoo/
-ln -s /opt/odoo/
-ln -s /opt/odoo/
-ln -s /opt/odoo/
+
