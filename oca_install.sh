@@ -1,4 +1,4 @@
-#!bin/bash
+#!/bin/bash
 
 #1.-Descarga
 sudo git clone https://github.com/OCA/account-financial-reporting.git -b 10.0 /opt/odoo/account-financial-reporting
