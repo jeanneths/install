@@ -52,11 +52,11 @@ sudo ln -s /opt/odoo/l10n-spain/l10n_es_partner /opt/odoo/custom/addons
 sudo ln -s /opt/odoo/l10n-spain/l10n_es_pos /opt/odoo/custom/addons
 sudo ln -s /opt/odoo/l10n-spain/l10n_es_toponyms /opt/odoo/custom/addons
 sudo ln -s /opt/odoo/l10n-spain/l10n_es /opt/odoo/custom/addons
-sudo ln -s /opt/odoo/partner-contact/base_location
-sudo ln -s /opt/odoo/partner-contact/base_location_geonames_import
-sudo ln -s /opt/odoo/partner-contact/base_partner_sequence
+sudo ln -s /opt/odoo/partner-contact/base_location /opt/odoo/custom/addons
+sudo ln -s /opt/odoo/partner-contact/base_location_geonames_import /opt/odoo/custom/addons
+sudo ln -s /opt/odoo/partner-contact/base_partner_sequence /opt/odoo/custom/addons
 sudo ln -s /opt/odoo/web/web_export_view  /opt/odoo/custom/addons
 sudo ln -s /opt/odoo/reporting-engine/report_xls /opt/odoo/custom/addons
 sudo ln -s /opt/odoo/server-tools/disable_openerp_online /opt/odoo/custom/addons
-sudo ln -s /opt/odoo/bank-statement-import/account_bank_statement_import opt/odoo/custom/addons/
+sudo ln -s /opt/odoo/bank-statement-import/account_bank_statement_import /opt/odoo/custom/addons/
 
