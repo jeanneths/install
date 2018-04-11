@@ -29,7 +29,7 @@ ln -s /opt/odoo/knowledge/attachment_preview /opt/odoo/custom/addons
 ln -s /opt/odoo/knowledge/attachments_to_filesystem /opt/odoo/custom/addons
 ln -s /opt/odoo/knowledge/document_page /opt/odoo/custom/addons
 ln -s /opt/odoo/knowledge/document_url /opt/odoo/custom/addons
-ln -s /opt/odoo/l10n-spain/account_balance_reporting_xls /opt/odoo/custom/addons
+ln -s /opt/odoo/l10n-spain/account_balance_reporting_xlsx /opt/odoo/custom/addons
 ln -s /opt/odoo/l10n-spain/account_balance_reporting /opt/odoo/custom/addons
 ln -s /opt/odoo/l10n-spain/l10n_es_account_asset /opt/odoo/custom/addons
 ln -s /opt/odoo/l10n-spain/l10n_es_account_balance_report /opt/odoo/custom/addons
