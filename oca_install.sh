@@ -9,6 +9,8 @@ sudo git clone https://github.com/OCA/knowledge.git -b 10.0 /opt/odoo/knowledge.
 sudo git clone https://github.com/OCA/l10n-spain.git -b 10.0 /opt/odoo/l10n-spain
 sudo git clone https://github.com/OCA/partner-contact.git -b 10.0 /opt/odoo/partner-contact
 sudo git clone https://github.com/OCA/web.git -b 10.0 /opt/odoo/web
+sudo git clone https://github.com/OCA/reporting-engine.git -b 10.0 /opt/odoo/reporting-engine
+sudo git clone https://github.com/OCA/server-tools.git -b 10.0 /opt/odoo/server-tools
 
 
 #2.-Acceso directo
@@ -53,4 +55,6 @@ ln -s /opt/odoo/partner-contact/base_location
 ln -s /opt/odoo/partner-contact/base_location_geonames_import
 ln -s /opt/odoo/partner-contact/base_partner_sequence
 ln -s /opt/odoo/web/web_export_view  /opt/odoo/custom/addons
+ln -s /opt/odoo/reporting-engine/report_xls /opt/odoo/custom/addons
+ln -s /opt/odoo/server-tools/disable_openerp_online /opt/odoo/custom/addons
 
