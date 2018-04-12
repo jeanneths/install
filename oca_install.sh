@@ -4,6 +4,7 @@
 sudo git clone https://github.com/OCA/account-financial-reporting.git -b 10.0 /opt/odoo/account-financial-reporting
 sudo git clone https://github.com/OCA/account-financial-tools.git -b 10.0 /opt/odoo/account-financial-tools
 sudo git clone https://github.com/OCA/account-payment.git -b 10.0 opt/odoo/account-payment
+sudo git clone https://github.com/OCA/account-invoicing.git -b 10.0 opt/odoo/account-invoicing
 sudo git clone https://github.com/OCA/bank-payment.git -b 10.0 /opt/odoo/bank-payment
 sudo git clone https://github.com/OCA/knowledge.git -b 10.0 /opt/odoo/knowledge.git
 sudo git clone https://github.com/OCA/l10n-spain.git -b 10.0 /opt/odoo/l10n-spain
@@ -25,6 +26,7 @@ sudo ln -s /opt/odoo/account-financial-tools/account_renumber /opt/odoo/custom/a
 sudo ln -s /opt/odoo/account-financial-tools/account_tax_balance /opt/odoo/custom/addons
 sudo ln -s /opt/odoo/account-payment/account_due_list /opt/odoo/custom/addons
 sudo ln -s /opt/odoo/account-payment/account_due_list_payment_mode /opt/odoo/custom/addons
+sudo ln -s /opt/odoo/account-invoicing/account_invoice_refund_link /opt/odoo/custom/addons
 sudo ln -s /opt/odoo/bank-payment/account_banking_mandate /opt/odoo/custom/addons
 sudo ln -s /opt/odoo/bank-payment/account_banking_pain_base /opt/odoo/custom/addons
 sudo ln -s /opt/odoo/bank-payment/account_banking_sepa_direct_debit /opt/odoo/custom/addons
