@@ -3,8 +3,8 @@
 #1.-Descarga
 sudo git clone https://github.com/OCA/account-financial-reporting.git -b 10.0 /opt/odoo/account-financial-reporting
 sudo git clone https://github.com/OCA/account-financial-tools.git -b 10.0 /opt/odoo/account-financial-tools
-sudo git clone https://github.com/OCA/account-payment.git -b 10.0 opt/odoo/account-payment
-sudo git clone https://github.com/OCA/account-invoicing.git -b 10.0 opt/odoo/account-invoicing
+sudo git clone https://github.com/OCA/account-payment.git -b 10.0 /opt/odoo/account-payment
+sudo git clone https://github.com/OCA/account-invoicing.git -b 10.0 /opt/odoo/account-invoicing
 sudo git clone https://github.com/OCA/bank-payment.git -b 10.0 /opt/odoo/bank-payment
 sudo git clone https://github.com/OCA/knowledge.git -b 10.0 /opt/odoo/knowledge.git
 sudo git clone https://github.com/OCA/l10n-spain.git -b 10.0 /opt/odoo/l10n-spain
