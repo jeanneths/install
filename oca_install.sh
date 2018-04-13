@@ -12,6 +12,7 @@ sudo git clone https://github.com/OCA/partner-contact.git -b 8.0 /opt/odoo/partn
 sudo git clone https://github.com/OCA/reporting-engine.git -b 8.0 /opt/odoo/reporting-engine
 sudo git clone https://github.com/OCA/server-tools.git -b 8.0 /opt/odoo/server-tools
 sudo git clone https://github.com/OCA/web.git -b 8.0 /opt/odoo/web
+sudo git clone https://github.com/OCA/pos.git -b 8.0 /opt/odoo/post
 
   
 
@@ -69,6 +70,7 @@ sudo ln -s /opt/odoo/server-tools/disable_openerp_online /opt/odoo/custom/addons
 sudo ln -s /opt/odoo/server-tools/mass_editing /opt/odoo/custom/addons
 sudo ln -s /opt/odoo/server-tools /opt/odoo/custom/addons
 sudo ln -s /opt/odoo/web/web_export_view /opt/odoo/custom/addons
+sudo ln -s /opt/odoo/post/pos_pricelis /opt/custom/addons
 
 
 
