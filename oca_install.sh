@@ -11,11 +11,10 @@ sudo git clone https://github.com/OCA/l10n-spain.git -b 8.0 /opt/odoo/l10n-spain
 sudo git clone https://github.com/OCA/partner-contact.git -b 8.0 /opt/odoo/partner-contact
 sudo git clone https://github.com/OCA/reporting-engine.git -b 8.0 /opt/odoo/reporting-engine
 sudo git clone https://github.com/OCA/server-tools.git -b 8.0 /opt/odoo/server-tools
-sudo git clone 
-sudo git clone 
-sudo git clone 
-sudo git clone 
-sudo git clone
+sudo git clone https://github.com/OCA/web.git -b 8.0 opt/odoo/web
+
+  
+
 
 #2.-Acceso directo
 sudo ln -s /opt/odoo/account-financial-reporting/account_export_csv /opt/odoo/custom/addons
@@ -61,16 +60,15 @@ sudo ln -s /opt/odoo/l10n-spain/l10n_es_partner /opt/odoo/custom/addons
 sudo ln -s /opt/odoo/l10n-spain/l10n_es_pos /opt/odoo/custom/addons
 sudo ln -s /opt/odoo/l10n-spain/l10n_es_toponyms /opt/odoo/custom/addons
 sudo ln -s /opt/odoo/l10n-spain/l10n_es /opt/odoo/custom/addons
-sudo ln -s /opt/odoo/partner-contact/base_location
-sudo ln -s /opt/odo/partner-contact/base_location_geonames_import
-sudo ln -s /opt/odoo/partner-contact/base_partner_sequence
-sudo ln -s /opt/odoo/reporting-engine/report_custom_filename
-sudo ln -s /opt/odoo/reporting-engine/report_xls
-sudo ln -s /opt/odoo/server-tools
-sudo ln -s /opt/odoo/server-tools
-sudo ln -s /opt/odoo/server-tools
-sudo ln -s /opt/odoo/
-sudo ln -s /opt/odoo/
-sudo ln -s /opt/odoo/
-sudo ln -s /opt/odoo/
-sudo ln -s /opt/odoo/
+sudo ln -s /opt/odoo/partner-contact/base_location /opt/odoo/custom/addons
+sudo ln -s /opt/odo/partner-contact/base_location_geonames_import /opt/odoo/custom/addons
+sudo ln -s /opt/odoo/partner-contact/base_partner_sequence /opt/odoo/custom/addons
+sudo ln -s /opt/odoo/reporting-engine/report_custom_filename /opt/odoo/custom/addons
+sudo ln -s /opt/odoo/reporting-engine/report_xls /opt/odoo/custom/addons
+sudo ln -s /opt/odoo/server-tools/disable_openerp_online /opt/odoo/custom/addons
+sudo ln -s /opt/odoo/server-tools/mass_editing /opt/odoo/custom/addons
+sudo ln -s /opt/odoo/server-tools /opt/odoo/custom/addons
+sudo ln -s /opt/odoo/web/web_export_view /opt/odoo/custom/addons
+
+
+
