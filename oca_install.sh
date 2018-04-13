@@ -61,7 +61,7 @@ sudo ln -s /opt/odoo/l10n-spain/l10n_es_pos /opt/odoo/custom/addons
 sudo ln -s /opt/odoo/l10n-spain/l10n_es_toponyms /opt/odoo/custom/addons
 sudo ln -s /opt/odoo/l10n-spain/l10n_es /opt/odoo/custom/addons
 sudo ln -s /opt/odoo/partner-contact/base_location /opt/odoo/custom/addons
-sudo ln -s /opt/odo/partner-contact/base_location_geonames_import /opt/odoo/custom/addons
+sudo ln -s /opt/odoo/partner-contact/base_location_geonames_import /opt/odoo/custom/addons
 sudo ln -s /opt/odoo/partner-contact/base_partner_sequence /opt/odoo/custom/addons
 sudo ln -s /opt/odoo/reporting-engine/report_custom_filename /opt/odoo/custom/addons
 sudo ln -s /opt/odoo/reporting-engine/report_xls /opt/odoo/custom/addons
