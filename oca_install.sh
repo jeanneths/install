@@ -1,6 +1,7 @@
 #!/bin/bash
 
 #1.-Descarga
+sudo git clone https://github.com/jeanneths/install.git -b 10.0 /opt/odoo/install
 sudo git clone https://github.com/OCA/account-financial-reporting.git -b 10.0 /opt/odoo/account-financial-reporting
 sudo git clone https://github.com/OCA/account-financial-tools.git -b 10.0 /opt/odoo/account-financial-tools
 sudo git clone https://github.com/OCA/account-payment.git -b 10.0 /opt/odoo/account-payment
